@@ -10,7 +10,7 @@ namespace Uqs.Arithmetic
     {
         public static decimal Divide(int dividend, int divisor)
         {
-            decimal quotinet = dividend / divisor;
+            decimal quotinet = (decimal) dividend / divisor;
             return quotinet;    
         }
     }
